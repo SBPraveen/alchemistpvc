@@ -1,0 +1,42 @@
+{
+    "particles":{
+        "number":{
+            "value":100
+        },
+        "color":{
+            "value":"#a4ebe7"
+        },
+        "shape":{
+            "type":"circle"
+        },
+        "size":{
+            "value":5,
+            "anim":{
+                "enable":true,
+                "speed":10
+            }
+        },
+        "line_linked":{
+            "enable": true,
+            "distance": 100,
+            "color":"#a4ebe7",
+            "width":1
+          },
+          "move":{
+            "enable":true,
+            "speed":2,
+            "direction":"none",
+            "straight":false
+          }
+        },
+        "interactivity":{
+            "events":{
+              "onhover":{
+                "enable":false
+              },
+              "onclick":{
+                "enable": false
+              }
+            }
+          }
+    }
